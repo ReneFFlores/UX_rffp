@@ -15,7 +15,7 @@
  */
 
 html, body {
-    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-family: 'Roboto', 'Helvetica', comic-sanss;
 }
 a {
     text-decoration: underline;
@@ -31,10 +31,10 @@ a {
     display: block;
 }
 h3 {
-    background: url('firebase-logo.png') no-repeat;
-    background-size: 40px;
-    padding-left: 50px;
-    background-position-y: -2px;
+    background: url('prueba.png') no-repeat;
+    background-size: 60px;
+    padding-left: 80px;
+    background-position-y: 0px;
 }
 .mdl-textfield {
     width: 100%;
@@ -48,22 +48,22 @@ h3 {
 /* Overrides MDL colors */
 .mdl-layout.is-upgraded .mdl-layout__tab.is-active::after,
 .header .mdl-textfield__label:after {
-    background-color: #FFCA28;
+    background-color: #4B0082   ;
 }
 .mdl-snackbar__action {
-    color: #FFCA28;
+    color: #4B0082;
 }
 .mdl-textfield__label:after {
-    background-color: #0288D1;
+    background-color: #4B0082;
 }
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label {
-    color: #0288D1;
+    color: #4B0082;
 }
 
 /* Header */
 
 .logo {
-    font-family: 'Amaranth', sans-serif;
+    font-family: 'Amaranth', comic-sans;
 }
 .logo .material-icons {
     top: 4px;
@@ -81,14 +81,14 @@ h3 {
 }
 @media screen and (max-width: 840px) {
     .header .mdl-layout__header-row.titlebar {
-        height: 56px;
+        height: 102px;
     }
     .titlebar h3 {
         font-size: 24px;
     }
     .titlebar h3 .material-icons {
-        top: 2.5px;
-        font-size: 23px;
+        top: 5px;
+        font-size: 46px;
     }
 }
 @media screen and (max-width: 479px) {
@@ -187,7 +187,7 @@ h3 {
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link.is-active,
 .is-active .mdl-menu__item {
     color: black;
-    background-color: #EBEBEB;
+    background-color: #006400;
 }
 .mdl-layout__drawer {
     border-right-width: 0;
@@ -307,8 +307,8 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #0288D1;
-    background: radial-gradient(circle, #039BE5, #01579b);
+    background-color: #006400;
+    background: radial-gradient(circle, #8B008B, #4B0082);
     z-index: 10000;
     display: flex;
     justify-content: center;
